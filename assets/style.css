@@ -1,0 +1,9 @@
+* {
+    border-color: red;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+ul {
+    list-style-type: none;
+}
