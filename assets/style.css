@@ -11,13 +11,14 @@
 }
 
 .vl {
-    border-left: 6px solid green;
+    border-left: 6px solid black;
     height: 500px;
+    padding: 20px;
 }
 
 #semantic img {
-    max-width: 50em;
-    max-height: 50em;
+    max-width: 25em;
+    max-height: 25em;
 }
 
 #prework img {
@@ -49,10 +50,25 @@ main {
 
 #work {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 100px;
-    column-gap: 20px;
+    column-gap: 20px; */
+
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 100px;
+  grid-template-areas:
+    "a a b"
+    "a a b";
 }
+
+#semantic {
+    grid-area: a;
+}
+
+#prework {
+    grid-area: b;
+}
+
 
 footer {
     display: flex;
@@ -89,4 +105,9 @@ footer ul {
      .sample-img {
          background-color: #8ac4ff;
      }
+ } */
+
+ /* .subtitles {
+    border-right: 5px dashed gray;
+    text-align: center;
  } */
