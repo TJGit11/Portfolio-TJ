@@ -45,12 +45,12 @@ main {
 
 #work {
     justify-content: center;
-    align-items: center;
+
 }
 
 #semantic img {
-    max-width: 40vw;
-    max-height: 40vh;
+    max-width: 45vw;
+    max-height: 45vh;
 }
 
 img {
@@ -58,6 +58,7 @@ img {
     flex-wrap: wrap;
     max-width: 30vw;
     max-height: 30vh;
+    padding: 15px;
 }
 
 footer {
