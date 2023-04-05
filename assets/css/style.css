@@ -1,3 +1,5 @@
+
+/* Styles how the elements are arranged on the page */
 header,
 nav,
 nav ul,
@@ -12,30 +14,37 @@ img, p {
     align-items: center;
 }
 
+/* Adds background color to the page*/
 body {
 background-color: rgb(40, 54, 24);
 }
 
+/* Changes the color of these elements and the links on the page */
 header, nav ul, 
 footer ul, a {
 color: rgb(188, 108, 37);
 }
 
+/* Adds color to the header */
 header {
     background-color: rgb(96, 108, 56);
 }
 
+/* Increases the size of the items in the nav and footer */
+/* Adds background color for better visibility */
 nav,
 footer {
     font-size: 25px;
     background-color: rgb(40, 54, 24);
 }
 
+/* Styles the background color of the main content */
 main {
     background-color: rgb(254, 250, 224);
 
 }
 
+/* Removes bullet points & add space between items in the nav/footer */
 ul {
     list-style-type: none;
     padding: 10px;
@@ -43,11 +52,13 @@ ul {
 
 }
 
+/* Increases size of the first image */
 #semantic img {
     max-width: 45vw;
     max-height: 45vh;
 }
 
+/* All other images are the same size */
 img {
     max-width: 30vw;
     max-height: 30vh;
