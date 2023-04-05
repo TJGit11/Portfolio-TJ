@@ -5,7 +5,7 @@ main,
 footer,
 footer ul,
 #work,
-img {
+img, p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
